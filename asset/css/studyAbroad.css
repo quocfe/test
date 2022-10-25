@@ -1,0 +1,56 @@
+.studyAbroad {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--second-color);
+}
+
+.studyAbroad__content>h2 {
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 700;   
+    margin-bottom: 20px; 
+    font-size: 20px;
+}
+
+.studyAbroad__title {
+    font-size: 16px;
+    color: #282828;
+    font-weight: 600;
+    margin-bottom:20px ;
+}
+
+.studyAbroad__text {
+    font-size: 16px;
+    margin-bottom:20px ;
+    color: #282828;
+}
+
+.studyAbroad__para--1 img {
+    width: 800px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.studyAbroad__para--2 img {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.studyAbroad__list li  {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.studyAbroad__contact>p {
+    margin-bottom: 20px;
+}
+
+.studyAbroad__contact--line {
+    margin: 20px 0;
+    max-width: 300px;
+    border-bottom: 2px dashed var(--text-color);
+}

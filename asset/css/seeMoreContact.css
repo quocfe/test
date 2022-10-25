@@ -1,0 +1,204 @@
+.seeMoreContact {
+    padding: 40px;
+}
+
+.seeMoreContact__wrapper {
+    width: 1020px;
+    min-height: 600px;
+}
+
+.seeMoreContact__content {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.seeMoreContact__heading {
+    text-align: center;
+    padding: 40px 10px 0;
+    margin-bottom: 40px;
+}
+
+.seeMoreContact__heading span {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-color);
+    text-align: center;
+    position: relative;
+    margin: 0 20px;
+}
+
+.seeMoreContact__heading span::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: var(--text-color);
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -80px;
+}
+
+.seeMoreContact__heading span::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: var(--text-color);
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -80px;
+}
+
+.seeMoreContact__content--wrapper {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seeMoreContact__content--wrapper input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(233, 227, 227);
+    padding: 0 ;
+    background-color:var(--bg-color) ;
+    height: 2.507em;
+    font-size: .97em;
+    border-radius: 0;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+    color: #333;
+    margin-bottom: 16px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.seeMoreContact__content--wrapper input:focus {
+    padding: 0 10px;
+    background-color: var(--header-color);
+    border-bottom: 1px solid rgb(172, 171, 171);
+}
+
+.seeMoreContact__content--wrapper select {
+    background-color: var(--bg-color);
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.seeMoreContact__content--wrapper textarea {
+    background-color: var(--bg-color);
+    border: none;
+    max-width: 100%;
+    min-height: 150px;
+    border-bottom: 1px solid rgb(233, 227, 227);
+    transition: 0.2s ease-in-out;
+    padding: 0;
+}
+
+.seeMoreContact__content--wrapper textarea:focus {
+    padding: 10px 20px;
+    background-color:var(--header-color);
+    border-bottom: 1px solid rgb(172, 171, 171);
+}
+
+.seeMoreContact__content--wrapper button {
+    background-color: var(--main-color);
+    border: none;
+    margin-top: 20px ;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 60px;  
+    color: #fff;  
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    max-width: 200px;
+    
+}
+
+.seeMoreContact__content--wrapper button:hover {
+    opacity: 0.9;
+}
+.seeMoreContact__content--answers {
+    padding: 0 20px;
+}
+
+.seeMoreContact__content--answer {
+    border-top: 1px solid rgb(233, 227, 227);
+}
+
+.content__answer--title {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.content__answer--title>i {
+    display: inline-block;
+    font-size: 36px;
+    color: var(--text-color);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.content__answer--title>i.active {
+    color: var(--main-color);
+}
+
+.content__answer--title>p {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content__answer--title>p.active {
+    color: var(--main-color);
+}
+
+details>summary {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color);
+    cursor: pointer;
+    outline: none;
+}
+
+details>summary:focus {
+    color: var(--main-color);
+}
+
+details>summary:active {
+    color: var(--text-color);
+}
+
+
+.content__answer--desc {
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+.content__answer--desc>strong {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+@keyframes loop {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}

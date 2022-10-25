@@ -1,0 +1,81 @@
+
+
+.header__bottom {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.header__bottom>p {
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.admissions {
+    padding-top: 50px;
+    height: 100%;
+    background-color: var(--second-color);
+}
+
+.admissions__heading {
+    font-size: 20px;
+    color: var(--main-color);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.admissions__content--img {
+    height: 500px
+}
+
+.admissions__content--img #zoom {
+    height: 100%;
+}
+
+#figure {
+    overflow: hidden;
+    margin: 0 10px;
+    height: 100%;
+}
+
+.admissions__content--img img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.admissions__content--img #zoom img {
+    transform: scale(1);
+    transition: 0.9s ease;
+
+}
+
+.admissions__content--img #zoom:hover img {
+    transform: scale(1.2);
+
+}
+
+.admissions__content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:500px;
+    padding-bottom: 40px;
+}
+
+.admissions__content--text {
+    padding-left: 10px;
+}
+
+.admissions__content--text>p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+}

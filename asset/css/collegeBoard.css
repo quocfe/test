@@ -1,0 +1,56 @@
+.collegeBoard {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--second-color);
+}
+
+.collegeBoard__content>h2 {
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 700;   
+    margin-bottom: 20px; 
+    font-size: 20px;
+}
+
+.collegeBoard__title {
+    font-size: 16px;
+    color: #282828;
+    font-weight: 600;
+    margin-bottom:20px ;
+}
+
+.collegeBoard__text {
+    font-size: 16px;
+    margin-bottom:20px ;
+    color: #282828;
+}
+
+.collegeBoard__para--1 img {
+    width: 800px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.collegeBoard__para--2 img {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.collegeBoard__list li  {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.collegeBoard__contact>p {
+    margin-bottom: 20px;
+}
+
+.collegeBoard__contact--line {
+    margin: 20px 0;
+    max-width: 300px;
+    border-bottom: 2px dashed var(--text-color);
+}

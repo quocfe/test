@@ -1,0 +1,21 @@
+.timetable {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--second-color);
+}
+
+.timetable__heading {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--main-color);
+    padding: 30px 0 30px 0;
+}
+
+.timetable__content--title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin-bottom: 20px;
+}
